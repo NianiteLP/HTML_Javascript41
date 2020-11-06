@@ -37,7 +37,7 @@ car2.x = 5
 car2.color = "red"
 
 var car3 = new GameObject
-car3.y = 30;
+car3.y = 85;
 car3.w = 35;
 car3.x = 5;
 car3.color = "blue";

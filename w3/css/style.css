@@ -1,0 +1,94 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    width: 1000px;
+    background-color: cornflowerblue;
+    ;
+}
+
+#header{
+    background-color: darkorchid;
+    line-height: 50px;
+    text-align: left;
+    color: white;
+}
+
+#nav{
+display: flex;
+justify-content: center;
+width: 1000px;
+background-color: darkorange;
+line-height: 45px;
+border-top: 2px solid darkorchid;
+border-bottom: 2px solid darkorchid;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: darkorchid;
+    color: white;
+    margin-right: 90px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight:bold;
+    border: 3px solid white;
+}
+
+#content{
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+    position: relative;
+    width: 700px;
+    
+}
+        #content-right{
+            position: absolute;
+            right: 475px;
+            background-color: black;
+            color: white;
+            border: 10px solid red;
+            height: 200px;
+            width: 200px;
+}
+#riddles{
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+}
+#image{
+    position: absolute;
+    right: 472px;
+
+}
+#schools{
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+    position: relative;
+    width: 250px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+    height: 40px;
+    text-align: center;
+    margin-top:400px;
+}
+#riddle-footer{
+    background-color: black;
+    color: white;
+    border: 10px solid red;
+    height: 40px;
+    text-align: center;
+    margin-top: 35px;
+}
